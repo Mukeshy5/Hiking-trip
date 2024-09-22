@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(Background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    margin-top: 30px;
+    backdrop-filter: blur(3px);
+    /* this propety are using for text-style  */
+    font-family: cursive;
+}
+.tapbar{
+    margin-left: 130px;
+    width: 1300px;
+    height: 80px;
+    /* border: 2px solid red; */
+    background: radial-gradient(rgba(255 , 255, 255, 0.6));
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    display: flex;
+
+}
+nav{
+   display: flex;
+   padding: 12px 5%;
+   width: 1300px;
+
+   /* border: 2px  solid red; */
+
+   
+}
+.logo{
+    margin-top: 0px;
+    color: white;
+    font-size: 35px;
+    float: left;
+    cursor: pointer;
+
+}
+nav ul{
+    flex: 1;
+    margin-top: 12px;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+nav ul li a{
+    /* this propety are using for hide underline */
+    text-decoration: none;
+    color: #000;
+    font-weight:600;
+    font-size: 1.2rem;
+    transition: 0.2s ease;
+}
+nav ul li a:hover{
+    color: #fff;
+}
+.bars{
+    /* this propety are using for hide dot  */
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+.bars:hover{
+    color: #000;
+}
+
+.main{
+    display: flex;
+    margin: 20px;
+
+}
+.content{
+    background-image: url(Background.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 1000px;
+    height: 500px;
+    /* border: 2px solid #000; */
+    background: radial-gradient(rgba(255 , 255, 255, 0.6));
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.6);
+    padding-left: 55px;
+    margin-left: 107px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+h2{
+    font-size: 35px;
+    padding-top: 20px;
+    margin-top: 2%;
+
+}
+h4{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 2%;
+
+}
+p{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 3%;
+}
+button{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 6px 16px;
+    font-size: 18px;
+    color: #000;
+    font-family: cursive;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    transition: 0.2s ease;
+}
+button:hover{
+    background-color: orange;
+}
+
+.icons{
+    margin-left: 15%;
+    margin-top: 35px;
+    width: 80px;
+    height: 500px;
+    /* border: 2px solid red; */
+    background: radial-gradient(rgba(255 , 255, 255, 0.6));
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.6);
+    border-radius: 15px;
+    backdrop-filter: blur(3px);
+    display: flex;
+
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 23px; */
+}
+.social-icons ul li{
+    list-style: none;
+    margin: 35px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 8px 8px;
+    border-radius: 7px;
+    margin-left: 20px;
+    display: block;
+}
+.social-icons ul li:hover{
+    background-color: #fff;
+    color: #000;
+}
